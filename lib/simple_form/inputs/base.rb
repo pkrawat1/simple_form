@@ -206,6 +206,11 @@ module SimpleForm
       def i18n_scope
         SimpleForm.i18n_scope
       end
+
+      def has_keys?
+        Array(options[:keys]).present?
+      end
+
     end
   end
 end

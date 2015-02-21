@@ -10,3 +10,4 @@ end
 gem 'country_select', '~> 1.1.1'
 gem 'railties'
 gem 'rake'
+gem 'pry'

@@ -19,5 +19,6 @@ module SimpleForm
     autoload :RangeInput
     autoload :StringInput
     autoload :TextInput
+    autoload :HashInput
   end
 end
